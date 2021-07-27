@@ -114,10 +114,10 @@ let PlayTwoPlayer = function () {
   }
   
   if(keyIsPressed && keyCode == 38) {
-       P2[1] += 5;
+       P2[1] -= 5;
      }
   if(keyIsPressed && keyCode == 40) {
-       P2[1] -= 5;
+       P2[1] += 5;
      }
   
 };
